@@ -1,0 +1,286 @@
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/dist/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navv{
+    padding-left: 300px;
+    padding-top: 5px;
+    display: flex;
+    padding: 241% -51%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -280px;
+}
+nav{
+    display: flex;
+    
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 13px;
+}
+.main{
+    color: #fff;
+}
+
+.container{
+text-align: center;
+width: 100%;
+padding-right: 150px;
+padding-left: 150px;
+margin-right: center;
+margin-left: center;
+margin-top: 150px;;
+margin-bottom: 250px;
+}
+#bas-hisse{
+    font-family: cursive;
+    font-size: 50px;
+}
+#bas-hisse1{
+    font-size: 70px;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+#btn1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: rgb(255, 217, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+    
+    
+}
+#services{
+    flex-direction:column-reverse
+  
+}
+#portfolioItem1{
+    margin-top: 500px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 500px;
+}
+#icon1{
+    background-color: yellow;
+    border-radius: 100%;
+}
+#icon2{
+    background-color: yellow;
+    border-radius: 100%;
+}
+#icon3{
+    background-color: yellow;
+    border-radius: 100%;
+}
+.img-about{
+    border-radius: 100%;
+
+    margin-left: 500px;
+}
+
+#about-img1{
+    border-radius: 100%;
+}
+#about-img2{
+    border-radius: 100%;
+}
+#about-img3{
+    border-radius: 100%;
+}
+#about-img4{
+    border-radius: 100%;
+}
+#about-son{
+    border-radius: 50%;
+    background-color: rgb(255, 196, 0);
+    width: 200px;
+    height: 200px;
+    margin-left: 430px;
+
+}
+#about-h4{
+    line-height: 2.2;
+}
+#team-main{
+    padding-bottom: 67px;
+
+}
+#team1img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+#team2img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+#team3img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    align-items: center;
+    justify-content: space-between;
+}
+#tw1{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#tw2{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#tw3{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#fb1{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#fb2{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#fb3{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#le1{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#le2{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#le3{
+    color: #fff;
+    background-color: rgb(39, 35, 35);
+    border-radius: 100%;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+}
+#contactdz{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(https://img.wallscloud.net/uploads/thumb/1004906087/karta-mira-mir-zemlia-1024x576-MM-80.webp);
+}
+.text-centerrr{
+    color: #fff;
+}
+.contact{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+    background-color: black;
+}
+.contact-text{
+    padding-top: 70px;
+    color: aliceblue;
+}
+.contact-input input {
+    width: 98%;
+    height: 70px;
+    border: 0 white;
+    background-color: aliceblue;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.contact-message input{
+    width: 98%;
+    height: 270px;
+    border: 0 white;
+    background-color: aliceblue;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.contact-singup{
+    display: flex;
+    padding-bottom: 60px;
+}
+.contact-button p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-button button{
+    width: 200px;
+    height: 80px;
+    background-color: #ffc800;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
